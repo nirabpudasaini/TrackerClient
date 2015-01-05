@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Tracker</string>
+    <string name="action_settings" translatable="false">Settings</string>
+    <string name="start">Start</string>
+    <string name="stop">Stop</string>
+    <string name="action_ok">OK</string>
+    <string name="action_cancel">Cancel</string>
+    <string name="login" translatable="false">Login</string>
+    <string name="logout" translatable="false">Log Out</string>
+    <string name="interval_dialogmsg" translatable="false">Enter in minutes, the interval you want to send your location data.</string>
+    <string name="interval_dialogtitle" translatable="false">Frequency to Send Location(In Minutes)</string>
+    <string name="network_title" translatable="false">Allow Sending Location via SMS?</string>
+    <string name="user_settings" translatable="false">User Settings</string>
+    <string name="login_credintials" translatable="false">Login Credintials</string>
+    <string name="login_credintials_summary" translatable="false">Username and Password for the Tracker app</string>
+    <string name="username" translatable="false">Username</string>
+    <string name="username_title" translatable="false">Enter your Username</string>
+    <string name="password">Password</string>
+    <string name="password_enter" translatable="false">Enter your Password</string>
+    <string name="tracking_in_progress">Your location is being shared.</string>
+    <string name="tracking_stopped">Not sharing your location.</string>
+    <string name="klllogo" translatable="false">KLL Logo</string>
+    <string name="welcome_text" translatable="false">Welcome to Tracker!!! \n\n\nBefore we can start we need to make sure of few things. \n\nFirst of all please make sure you have a Tracker Username and Password.</string>
+    <string name="set_sms_text" translatable="false">Now lets set the SMS setting. \n\n\nWhen there is no internet available Tracker can send your location via SMS. This may apply standard SMS rates. Please check if want to enable sending your location via SMS. \n\nYou can change this setting later by going to your Settings Menu.</string>
+    <string name="set_interval_text" translatable="false">Finally \n\n\nLet\'s set the interval setting. Please enter the interval you want to send your location in minutes. \n\nThis can also be changed later from the Settings menu.</string>
+
+    <string-array name="datasend_network">
+        <item name = "lable_sms">Yes</item>
+        <item name = "lable_data">No</item>
+    </string-array>
+    <string-array name="datasend_network_save">
+        <item name = "value_sms">sms</item>
+        <item name = "value_data">3g</item>
+    </string-array>
+    <string name="checkin_sucessful" translatable="false">Sucessfully Checked In</string>
+    <string name="checkin_sms_error" translatable="false">Tracker encountered some error while checking in via SMS</string>
+    <string name="checkin_sucessful_sms" translatable="false">Checked in via SMS</string>
+    <string name="no_internet_sms_disabled" translatable="false">Please make sure you have internet connection or enable SMS in the Settings menu</string>
+    <string name="interval_empty" translatable="false">Please Enter Something in the Interval</string>
+    <string name="nointernet_login" translatable="false">You do not have a internet connection, You need internet connection to Login</string>
+    <string name="wrong_password_username">Please provoide a valid username and password</string>
+    <string name="internet_problem" translatable="false">Please make sure that your internet connection is working properly.</string>
+    <string name="gps_disabled" translatable="false">Your GPS seems to be disabled, Please enable it to start tracking</string>
+    <string name="logout_trackingon" translatable="false">Please Stop tracking before you log out</string>
+
+
+</resources>

@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/linearlayout_welcome"
+    android:gravity="center"
+    android:padding="20dp"    >
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="15dp"
+            android:textSize="16dp"
+            android:textStyle="bold"
+            android:textColor="#d9d9d9"
+            android:text="@string/welcome_text">
+
+        </TextView>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#749c4e"
+            android:textColor="#d9d9d9"
+            android:padding="15dp"
+            android:textSize="15dp"
+            android:layout_gravity="end"
+            android:text="@string/action_ok"
+            android:id="@+id/btn_welcome_ok"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/linearlayout_set_sms"
+        android:visibility="gone"
+        android:gravity="center"
+        android:padding="20dp"    >
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="15dp"
+            android:textSize="16dp"
+            android:textStyle="bold"
+            android:textColor="#d9d9d9"
+            android:text="@string/set_sms_text">
+
+        </TextView>
+
+        <CheckBox
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/chk_sms"
+            android:text="Send Location via SMS"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#749c4e"
+            android:textColor="#d9d9d9"
+            android:padding="15dp"
+            android:textSize="15dp"
+            android:layout_gravity="end"
+            android:text="@string/action_ok"
+            android:id="@+id/btn_set_sms"/>
+
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/linearlayout_set_interval"
+        android:visibility="gone"
+        android:gravity="center"
+        android:padding="20dp"    >
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="15dp"
+            android:textSize="16dp"
+            android:textStyle="bold"
+            android:textColor="#d9d9d9"
+            android:text="@string/set_interval_text">
+
+        </TextView>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="number"
+            android:padding="15dp"
+            android:id="@+id/edittext_interval"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#749c4e"
+            android:textColor="#d9d9d9"
+            android:padding="15dp"
+            android:textSize="15dp"
+            android:layout_gravity="end"
+            android:text="@string/action_ok"
+            android:id="@+id/btn_set_interval"/>
+
+    </LinearLayout>
+
+</LinearLayout>

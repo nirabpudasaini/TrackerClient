@@ -1,0 +1,48 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:background="#5589b3" >
+
+    <LinearLayout
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:padding="20dp"
+    android:gravity="end"
+    android:orientation="horizontal">
+    <TextView
+        android:layout_weight="1"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:text="Tracking is not enabled."
+        android:textSize="20sp"
+        android:gravity="center"
+        android:id="@+id/text_tracking_status"/>
+
+    <ToggleButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:textOn="@string/stop"
+        android:textOff="@string/start"
+        android:padding="15dp"
+        android:id="@+id/toggle_tracking"
+        />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:padding="20dp"
+        android:gravity="center">
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="20dp"
+        android:text="Check In"
+        android:id="@+id/button_check_in"
+        />
+    </LinearLayout>
+
+
+</LinearLayout>

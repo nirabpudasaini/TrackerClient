@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">ट्रयाकर</string>
+    <string name="action_cancel">रद्ध गर्नुहो</string>
+    <string name="action_ok">हुन्छ</string>
+    <string name="password">पास्वोर्</string>
+    <string name="start">सुरु गर्नुहोस</string>
+    <string name="stop">रोक्नुहोस</string>
+    <string name="tracking_in_progress">तपाईंको लोकेशन सेयर हुदैछ</string>
+    <string name="tracking_stopped">लोकेशन सेयर भैरहेको छहिन</string>
+    <string name="wrong_password_username"></string>
+
+    <string-array name="datasend_network">
+        <item name = "lable_sms">Yes</item>
+        <item name = "lable_data">No</item>
+    </string-array>
+    <string-array name="datasend_network_save">
+    <item name = "value_sms">sms</item>
+    <item name = "value_data">3g</item>
+    </string-array>
+</resources>
