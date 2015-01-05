@@ -1,8 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     android:orientation="vertical" android:layout_width="match_parent"
     android:layout_height="match_parent">
+<LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
     <LinearLayout
     android:orientation="vertical"
     android:layout_width="match_parent"
@@ -14,7 +19,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:padding="15dp"
-            android:textSize="16dp"
+            android:textSize="16sp"
             android:textStyle="bold"
             android:textColor="#d9d9d9"
             android:text="@string/welcome_text">
@@ -27,7 +32,7 @@
             android:background="#749c4e"
             android:textColor="#d9d9d9"
             android:padding="15dp"
-            android:textSize="15dp"
+            android:textSize="15sp"
             android:layout_gravity="end"
             android:text="@string/action_ok"
             android:id="@+id/btn_welcome_ok"/>
@@ -46,7 +51,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:padding="15dp"
-            android:textSize="16dp"
+            android:textSize="16sp"
             android:textStyle="bold"
             android:textColor="#d9d9d9"
             android:text="@string/set_sms_text">
@@ -57,7 +62,7 @@
             android:layout_width="fill_parent"
             android:layout_height="wrap_content"
             android:id="@+id/chk_sms"
-            android:text="Send Location via SMS"/>
+            android:text="@string/network_title"/>
 
         <Button
             android:layout_width="wrap_content"
@@ -65,7 +70,7 @@
             android:background="#749c4e"
             android:textColor="#d9d9d9"
             android:padding="15dp"
-            android:textSize="15dp"
+            android:textSize="15sp"
             android:layout_gravity="end"
             android:text="@string/action_ok"
             android:id="@+id/btn_set_sms"/>
@@ -86,31 +91,44 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:padding="15dp"
-            android:textSize="16dp"
+            android:textSize="16sp"
             android:textStyle="bold"
             android:textColor="#d9d9d9"
             android:text="@string/set_interval_text">
 
         </TextView>
-
-        <EditText
+        <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:inputType="number"
             android:padding="15dp"
+            android:orientation="horizontal">
+
+        <EditText
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:inputType="number"
+            android:layout_weight="1"
             android:id="@+id/edittext_interval"/>
 
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:textSize="15sp"
+                android:text="@string/minutes"/>
+
+
+        </LinearLayout>
         <Button
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:background="#749c4e"
             android:textColor="#d9d9d9"
             android:padding="15dp"
-            android:textSize="15dp"
+            android:textSize="15sp"
             android:layout_gravity="end"
             android:text="@string/action_ok"
             android:id="@+id/btn_set_interval"/>
 
     </LinearLayout>
-
 </LinearLayout>
+</ScrollView>

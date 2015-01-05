@@ -44,6 +44,7 @@
     <string name="internet_problem" translatable="false">Please make sure that your internet connection is working properly.</string>
     <string name="gps_disabled" translatable="false">Your GPS seems to be disabled, Please enable it to start tracking</string>
     <string name="logout_trackingon" translatable="false">Please Stop tracking before you log out</string>
+    <string name="minutes">Minutes</string>
 
 
 </resources>

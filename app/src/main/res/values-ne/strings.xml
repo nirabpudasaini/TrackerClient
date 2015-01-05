@@ -18,4 +18,5 @@
     <item name = "value_sms">sms</item>
     <item name = "value_data">3g</item>
     </string-array>
+    <string name="minutes">Minutes</string>
 </resources>
