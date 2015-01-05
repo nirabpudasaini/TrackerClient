@@ -66,6 +66,7 @@ public class MainActivity extends Activity implements AsyncTaskCompleteListener 
 					if (!locationManager
 							.isProviderEnabled(LocationManager.GPS_PROVIDER)) {
 						buildAlertMessageNoGps();
+                        toggleTracking.setChecked(false);
 						return;
 					}
 					tracking = true;
